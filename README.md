@@ -5,6 +5,12 @@ if game.PlaceId == 2753915549 or game.PlaceId == 4442272183 or game.PlaceId == 7
 else
 
 	  game.Players.localPlayer:Kick("Wrong Map")
+	  
+	  
+
+_G.Color = Color3.fromRGB(52, 190, 255)
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/hajibeza/RIPPER-HUB/main/NEWBF.lua"))()
 
 end
 
